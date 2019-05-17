@@ -1,0 +1,914 @@
+{
+  "id": "7f84a86f-4cab-4452-9601-36104562a616",
+  "version": "2.0",
+  "name": "TestSelenium ",
+  "url": "https://kasirpintar.co.id",
+  "tests": [{
+    "id": "7ff77646-721e-40e7-b014-604716ff5a81",
+    "name": "Test Data Valid",
+    "commands": [{
+      "id": "250aaa45-1d50-4563-a8b3-a9cfa405ec78",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "978bb106-e4f6-4e8e-b509-96e092799f18",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "597x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5119b2ba-090c-4f41-b8fa-36342b61eda0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-100 > .row",
+      "targets": [
+        ["css=.h-100 > .row", "css:finder"],
+        ["xpath=//section/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b1a051c-4392-4f24-b6a6-200889d18fa5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Karir",
+      "targets": [
+        ["linkText=Karir", "linkText"],
+        ["css=.footer-section:nth-child(3) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Karir')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://kasirpintar.co.id/careers')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Karir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db43da50-72a2-482a-80a5-e44e289d9115",
+      "comment": "",
+      "command": "click",
+      "target": "id=posisi",
+      "targets": [
+        ["id=posisi", "id"],
+        ["css=#posisi", "css:finder"],
+        ["xpath=//input[@id='posisi']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86d73ed6-b28b-4cda-aad5-42a430ef3912",
+      "comment": "",
+      "command": "type",
+      "target": "id=posisi",
+      "targets": [
+        ["id=posisi", "id"],
+        ["css=#posisi", "css:finder"],
+        ["xpath=//input[@id='posisi']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Quality Assurance Engineer"
+    }, {
+      "id": "8ee5240f-cffb-4ec5-9467-947e961061ca",
+      "comment": "",
+      "command": "click",
+      "target": "id=divisi",
+      "targets": [
+        ["id=divisi", "id"],
+        ["css=#divisi", "css:finder"],
+        ["xpath=//select[@id='divisi']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0cc64eb-6805-4499-a759-ffec6297ac65",
+      "comment": "",
+      "command": "select",
+      "target": "id=divisi",
+      "targets": [],
+      "value": "label=Technology"
+    }, {
+      "id": "15d04535-cfb6-471b-9902-d964984b362d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#divisi > option:nth-child(2)",
+      "targets": [
+        ["css=#divisi > option:nth-child(2)", "css:finder"],
+        ["xpath=//option[@value='4']", "xpath:attributes"],
+        ["xpath=//select[@id='divisi']/option[2]", "xpath:idRelative"],
+        ["xpath=//option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'Technology')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b333550b-9f74-421f-a393-1312ce263d8e",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0624c236-b810-4f50-9565-a24b19f11fd5",
+    "name": "Test Posisi Kosong",
+    "commands": [{
+      "id": "0968fddd-0e2b-485f-9f10-2df4a896e047",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "492e337c-7857-4244-a924-c83c30e9ef83",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "597x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2bc668d-37a3-4b4d-bdf8-86c5b906f01b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-100 > .row",
+      "targets": [
+        ["css=.h-100 > .row", "css:finder"],
+        ["xpath=//section/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e76f34e-92af-48c4-81de-d04b307129ed",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Karir",
+      "targets": [
+        ["linkText=Karir", "linkText"],
+        ["css=.footer-section:nth-child(3) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Karir')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://kasirpintar.co.id/careers')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Karir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eae27563-ee0e-4cb1-bdec-071c883b8a4a",
+      "comment": "",
+      "command": "click",
+      "target": "id=divisi",
+      "targets": [
+        ["id=divisi", "id"],
+        ["css=#divisi", "css:finder"],
+        ["xpath=//select[@id='divisi']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bb5367e-5696-446e-a97e-0fa2e5c52493",
+      "comment": "",
+      "command": "select",
+      "target": "id=divisi",
+      "targets": [],
+      "value": "label=Technology"
+    }, {
+      "id": "11ca2d49-5638-442d-a689-908dff544759",
+      "comment": "",
+      "command": "click",
+      "target": "css=#divisi > option:nth-child(2)",
+      "targets": [
+        ["css=#divisi > option:nth-child(2)", "css:finder"],
+        ["xpath=//option[@value='4']", "xpath:attributes"],
+        ["xpath=//select[@id='divisi']/option[2]", "xpath:idRelative"],
+        ["xpath=//option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'Technology')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e80052f-653d-4739-819c-ea818d68501d",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "07c5652a-6c33-420d-b066-336b10c82c53",
+    "name": "Test Data Kosong",
+    "commands": [{
+      "id": "25a553c7-c7d3-4244-8b09-a90d067c4d0d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7383be6c-a0a9-498b-a01d-e84a49d97573",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "597x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1784373-99ca-46a9-83e0-bf0146e9edda",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Karir",
+      "targets": [
+        ["linkText=Karir", "linkText"],
+        ["css=.footer-section:nth-child(3) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Karir')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://kasirpintar.co.id/careers')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Karir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59b8ad70-d846-40a7-bbc4-3e516696d3a1",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "96d8dc36-9937-46f6-be39-5e3e8a4baf16",
+    "name": "Test Posisi Salah",
+    "commands": [{
+      "id": "ad898c60-ff33-4677-8a86-e860b92f65c8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "055eb0ff-f359-400c-a597-94c0f5c61765",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "597x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fec80ff3-419a-4bad-a072-0e6b16c939cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-100 > .row",
+      "targets": [
+        ["css=.h-100 > .row", "css:finder"],
+        ["xpath=//section/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0501b89b-4615-48e7-94b5-9041850f08e5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Karir",
+      "targets": [
+        ["linkText=Karir", "linkText"],
+        ["css=.footer-section:nth-child(3) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Karir')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://kasirpintar.co.id/careers')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Karir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69365694-80f8-4cc6-a494-1670c47d0bf0",
+      "comment": "",
+      "command": "click",
+      "target": "id=posisi",
+      "targets": [
+        ["id=posisi", "id"],
+        ["css=#posisi", "css:finder"],
+        ["xpath=//input[@id='posisi']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16d5df01-835d-4255-bf34-f928c2034fae",
+      "comment": "",
+      "command": "type",
+      "target": "id=posisi",
+      "targets": [
+        ["id=posisi", "id"],
+        ["css=#posisi", "css:finder"],
+        ["xpath=//input[@id='posisi']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123sed"
+    }, {
+      "id": "686b95de-a06b-4ec2-a1c4-e2af3dabc1a2",
+      "comment": "",
+      "command": "click",
+      "target": "id=divisi",
+      "targets": [
+        ["id=divisi", "id"],
+        ["css=#divisi", "css:finder"],
+        ["xpath=//select[@id='divisi']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47e0468b-6f75-48b6-b16a-3f92ac9f4e89",
+      "comment": "",
+      "command": "select",
+      "target": "id=divisi",
+      "targets": [],
+      "value": "label=Technology"
+    }, {
+      "id": "dc237326-3101-4af1-8cd1-d45d22761067",
+      "comment": "",
+      "command": "click",
+      "target": "css=#divisi > option:nth-child(2)",
+      "targets": [
+        ["css=#divisi > option:nth-child(2)", "css:finder"],
+        ["xpath=//option[@value='4']", "xpath:attributes"],
+        ["xpath=//select[@id='divisi']/option[2]", "xpath:idRelative"],
+        ["xpath=//option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'Technology')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "154392ee-efaf-4524-9439-90bc222cec99",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2e2566b2-0d91-4326-bd06-0f07f98e7d74",
+    "name": "Test Divisi Tidak Sesuai",
+    "commands": [{
+      "id": "04e216f4-cf70-4f61-a424-43c07a78b33d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35ad18d2-f55d-4a2b-9c42-1350e211219b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "597x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53cac14a-c95e-46ff-80aa-36f6ccb2de07",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Karir",
+      "targets": [
+        ["linkText=Karir", "linkText"],
+        ["css=.footer-section:nth-child(3) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Karir')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://kasirpintar.co.id/careers')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Karir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17eee606-d5b1-4c0f-a2dd-8cae30602ee8",
+      "comment": "",
+      "command": "click",
+      "target": "id=posisi",
+      "targets": [
+        ["id=posisi", "id"],
+        ["css=#posisi", "css:finder"],
+        ["xpath=//input[@id='posisi']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cb493fb-de73-4a99-8807-3d7526d698aa",
+      "comment": "",
+      "command": "type",
+      "target": "id=posisi",
+      "targets": [
+        ["id=posisi", "id"],
+        ["css=#posisi", "css:finder"],
+        ["xpath=//input[@id='posisi']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Quality Assurance Engineer"
+    }, {
+      "id": "24871a97-3945-4295-97c4-d2a0671435f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=divisi",
+      "targets": [
+        ["id=divisi", "id"],
+        ["css=#divisi", "css:finder"],
+        ["xpath=//select[@id='divisi']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe077620-d9bd-4b77-adaf-1c145085ec6b",
+      "comment": "",
+      "command": "select",
+      "target": "id=divisi",
+      "targets": [],
+      "value": "label=Marketing & Sales"
+    }, {
+      "id": "ef5960d7-047f-4d9c-8ae4-49bc9b74bbab",
+      "comment": "",
+      "command": "click",
+      "target": "css=#divisi > option:nth-child(3)",
+      "targets": [
+        ["css=#divisi > option:nth-child(3)", "css:finder"],
+        ["xpath=//option[@value='6']", "xpath:attributes"],
+        ["xpath=//select[@id='divisi']/option[3]", "xpath:idRelative"],
+        ["xpath=//option[3]", "xpath:position"],
+        ["xpath=//option[contains(.,'Marketing & Sales')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "734f7655-ee1b-4e28-b71e-ca97f151ff66",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9524f064-13f1-484f-b787-257311e4b523",
+    "name": "Test Tipe Data Tidak Sesuai",
+    "commands": [{
+      "id": "56a97feb-a1e0-4015-b913-d175a4ecfe7f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e1ef069-9919-4adb-9c3e-cedef840f4c6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "597x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b52bae42-5d42-46b0-ad2d-84cf86229177",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar",
+      "targets": [
+        ["css=.navbar", "css:finder"],
+        ["xpath=//nav", "xpath:position"],
+        ["xpath=//nav[contains(.,'MENU')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dc06887-bed9-4fa7-be48-1755baea6795",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Karir",
+      "targets": [
+        ["linkText=Karir", "linkText"],
+        ["css=.footer-section:nth-child(3) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Karir')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://kasirpintar.co.id/careers')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Karir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90fdc01c-d8b3-4179-b3b5-b41cf0cfac6e",
+      "comment": "",
+      "command": "click",
+      "target": "id=posisi",
+      "targets": [
+        ["id=posisi", "id"],
+        ["css=#posisi", "css:finder"],
+        ["xpath=//input[@id='posisi']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04c9286c-cf08-4c6e-8717-2d9ede8f2a01",
+      "comment": "",
+      "command": "type",
+      "target": "id=posisi",
+      "targets": [
+        ["id=posisi", "id"],
+        ["css=#posisi", "css:finder"],
+        ["xpath=//input[@id='posisi']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "progrmer 124_q13"
+    }, {
+      "id": "19edd26d-ce84-412f-921c-e51fb0fdec7b",
+      "comment": "",
+      "command": "click",
+      "target": "id=divisi",
+      "targets": [
+        ["id=divisi", "id"],
+        ["css=#divisi", "css:finder"],
+        ["xpath=//select[@id='divisi']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34573bab-6d12-411d-8c5c-ffeda5422df6",
+      "comment": "",
+      "command": "select",
+      "target": "id=divisi",
+      "targets": [],
+      "value": "label=Marketing & Sales"
+    }, {
+      "id": "1761de73-22ee-4971-83e8-94e80b4f0075",
+      "comment": "",
+      "command": "click",
+      "target": "css=#divisi > option:nth-child(3)",
+      "targets": [
+        ["css=#divisi > option:nth-child(3)", "css:finder"],
+        ["xpath=//option[@value='6']", "xpath:attributes"],
+        ["xpath=//select[@id='divisi']/option[3]", "xpath:idRelative"],
+        ["xpath=//option[3]", "xpath:position"],
+        ["xpath=//option[contains(.,'Marketing & Sales')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "194e4c4b-6021-4cfb-b3ff-f280301c907a",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25f9ba1b-96e1-4f73-80a5-bdf667359290",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43511e2e-9a40-4df3-b47f-6273e09cc19f",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "428891c0-bdbd-4be7-8fd2-187a45b83b04",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6763a37c-a581-4818-9b09-2ee5c1523ee6",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "210fd2c3-6582-4fd2-bbde-babe868ff04b",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04831d42-7c5f-4ee6-9e31-b1137ddac07c",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5120f2a-df36-4130-b725-8e9578299a33",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee6ece62-0fee-4799-8eb6-7822aa6f3f90",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0595f65a-3875-4699-a64c-ca08b02bc987",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb356431-99aa-462c-a87e-78eb64e3846e",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1e0df33-ec54-4b04-8af0-81675ca0182c",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=posisi",
+      "targets": [
+        ["id=posisi", "id"],
+        ["css=#posisi", "css:finder"],
+        ["xpath=//input[@id='posisi']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "163,16.199996948242188"
+    }, {
+      "id": "68f699d2-ce4f-4860-b814-1359b1066682",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=posisi",
+      "targets": [
+        ["id=posisi", "id"],
+        ["css=#posisi", "css:finder"],
+        ["xpath=//input[@id='posisi']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "163,16.199996948242188"
+    }, {
+      "id": "a1c405cc-5967-4a5b-a2f5-ed24fa294823",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=posisi",
+      "targets": [
+        ["id=posisi", "id"],
+        ["css=#posisi", "css:finder"],
+        ["xpath=//input[@id='posisi']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "163,16.199996948242188"
+    }, {
+      "id": "debdd8f1-2340-454a-9c4d-6c9a168c1a58",
+      "comment": "",
+      "command": "click",
+      "target": "id=posisi",
+      "targets": [
+        ["id=posisi", "id"],
+        ["css=#posisi", "css:finder"],
+        ["xpath=//input[@id='posisi']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05527111-a92f-4dbf-9df8-cd37bcfe683c",
+      "comment": "",
+      "command": "click",
+      "target": "id=posisi",
+      "targets": [
+        ["id=posisi", "id"],
+        ["css=#posisi", "css:finder"],
+        ["xpath=//input[@id='posisi']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e74f29ea-7513-42fc-b8fd-6c8df3fe1b6d",
+      "comment": "",
+      "command": "type",
+      "target": "id=posisi",
+      "targets": [
+        ["id=posisi", "id"],
+        ["css=#posisi", "css:finder"],
+        ["xpath=//input[@id='posisi']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Q"
+    }, {
+      "id": "5c4a269b-7b80-48cd-9da4-61977ee7fd61",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=posisi",
+      "targets": [
+        ["id=posisi", "id"],
+        ["css=#posisi", "css:finder"],
+        ["xpath=//input[@id='posisi']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "7ec690c6-5167-4bf3-a291-217e0bfb168f",
+      "comment": "",
+      "command": "type",
+      "target": "id=posisi",
+      "targets": [
+        ["id=posisi", "id"],
+        ["css=#posisi", "css:finder"],
+        ["xpath=//input[@id='posisi']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "quality assurance"
+    }, {
+      "id": "5d01a634-7788-4531-ab49-c523c5c18669",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d813650e-004f-4a54-9f21-cdc49be72ad6",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85c96997-a0de-4cce-b335-2f0ce8914f26",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce98eaba-bd70-49d7-a761-6579274d8e27",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07447a75-08f7-41eb-b31d-b50faca25d74",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "915225fd-c5cb-4322-8a8a-52a90dc6e159",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b284b40d-4f09-492e-8669-c411d34e18dd",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b7903e3-66c6-45dd-80ae-f634d0cd2eed",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari",
+      "targets": [
+        ["id=cari", "id"],
+        ["css=#cari", "css:finder"],
+        ["xpath=//button[@id='cari']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d25f6448-5e86-48a9-b6cc-199fc72df8af",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7ff77646-721e-40e7-b014-604716ff5a81"]
+  }],
+  "urls": ["https://kasirpintar.co.id/"],
+  "plugins": []
+}
